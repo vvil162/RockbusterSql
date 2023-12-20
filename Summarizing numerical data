@@ -1,0 +1,16 @@
+#Summarizing numerical data
+
+SELECT
+ MIN (rental_duration) AS min_rental_duration, 
+ MAX (rental_duration) AS max_rental_duration, 
+ AVG (rental_duration) AS avg_rental_duration, 
+ MIN (rental rate) AS min_rental rate, 
+ MAX (rental rate) AS max_rental rate,
+ AVG (rental rate) AS avg_rental rate, 
+ MIN (length) AS min_length,
+ MAX (length) AS max_length, 
+ AVG(length) AS avg_length,
+ MIN (replacement cost) AS min_replacement_cost, 
+ MAX (replacement cost) AS max_replacement_cost, 
+ AVG(replacement cost) AS avg_replacement_cost 
+FROM film
