@@ -9,4 +9,6 @@ Rockbuster is planning on launching an online video renal services in order to s
 4.  Where are customers with a high lifetime value based?
 5.  Do sales figures vary between geographic regions?
 
+## Data: 
+Data used is provided by Rockbuster itself and manipulated in PostgresSQL. The ERD of the data displays a snowflake schema as dimension tables are surrounded by subdimensions. 
 
